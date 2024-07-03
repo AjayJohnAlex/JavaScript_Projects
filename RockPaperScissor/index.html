@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game 1</title>
+    
+    <style>
+        button {
+            background-color: #0e5569;
+            color: white;
+            height: 40px;
+            width: 100px;
+            border-radius: 10px;
+            margin: 5px;
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Rock Paper Scissors</h1>
+    <div id="game_output"></div>
+    <button value="Rock" onclick="playGame(this.value)">Rock</button>
+    <button value="Paper" onclick="playGame(this.value)">Paper</button>
+    <button value="Scissors" onclick="playGame(this.value)">Scissors</button>
+    
+    <script src="logic.js"></script>
+</body>
+</html>
